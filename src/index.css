@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;       /* Alinha verticalmente ao centro */
+  justify-content: center;
+  width:100%;
+    
+overflow-x:hidden;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html {
+overflow-x: hidden;
+
+}

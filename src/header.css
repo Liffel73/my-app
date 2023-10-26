@@ -1,0 +1,72 @@
+
+.Header {
+    display: flex;
+    text-align: center;
+    align-items: center;       /* Alinha verticalmente ao centro */
+    justify-content: center; 
+    max-width: 1120px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  /* ... Seu CSS atual ... */
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+  .borda-filme {
+      width: 80%;
+  }
+
+  .movie-lateral-1 img {
+      max-width: 300px;
+  }
+
+  .Header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .logo {
+      width: 100px;
+  }
+
+  .content, .movie-details {
+      width: 100%;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 480px) {
+  .borda-filme {
+      width: 95%;
+      padding: 10px 15px;
+  }
+
+  .movie-lateral-1, .movie-lateral-2 {
+      flex-direction: column;
+  }
+
+  .movie-lateral-1 img {
+      max-width: 100%;
+  }
+
+  .inline {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  .movie-lateral-2 h3, .movie-lateral-2 h2, .movie-lateral-2 h1, .movie-lateral-2 p, .movie-lateral-2 h4 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+  
+  .Header {
+      padding: 10px 0;
+  }
+
+  .logo {
+      width: 80px;
+  }
+}
